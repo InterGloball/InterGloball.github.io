@@ -296,6 +296,59 @@ body {
   .p_border_biger p {
   	padding: 0 0 10px 0;
   }
+  .space__to__right__wrapper {
+  	width: 270px;
+  }
+  .space__to__right {
+  	float: right;
+  }
+   .two__columns__into__longer__version	{
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  	justify-content: space-between;
+  	max-width: 500px;
+  }
+  .two__columns__into__300 {
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  	justify-content: space-between;
+  	max-width: 280px;
+  }
+  .two__columns__into	{
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  	justify-content: space-between;
+  	max-width: 500px;
+  }
+  .two__columns__into__col__1 {}
+  .two__columns__into__col__1 {}
+  .two__columns__into__col__2 {}
+
+  .three__columns__into {
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  }
+  .thre__columns__into__col__1 {
+  	margin: 0 30px 0 0;
+  }
+  .thre__columns__into__col__2 {
+  	margin: 0 30px 0 0;
+  }
+  .thre__columns__into__col__3 {
+  	margin: 0 30px 0 0;
+  }
   /*~~~~~~~~~~~~~~~~~~~~~*/
   .text_block_fix_width {
   	margin: 0 0 20px 0;
