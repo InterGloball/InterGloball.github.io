@@ -215,7 +215,6 @@
 .menu__list a{
 	margin: 0;
 	padding: 0;
-	background-color: #369;
 	background-color: #fff;
 	color: #37516b;
 	border: 0;
@@ -251,6 +250,26 @@
 	.header__lable {
 		font-size: 14px;
 	}
+
+	.content__modal, .content__modal__voc, .content__modal__read, .content__modal__lis, .content__modal__test, .content__modal__key {
+		height: 30%;
+		width: 80%;
+		left: 10%;
+
+	}
+	.content__modal.active, .content__modal__voc.active, .content__modal__read.active, .content__modal__lis.active, .content__modal__test.active, .content__modal__key.active {
+		bottom: 45%;
+	}
+	.content__modal__list a {
+		padding: 5px;
+		line-height: 45px;
+	}
+	.content__modal__button {
+		height: 20%;
+		background-color: #fff;
+
+	}
+
 	.content__content__block {
 		-webkit-flex: 1 1 40%;
 		-moz-flex: 1 1 40%;
@@ -268,6 +287,25 @@
 }
 
 @media only screen and (max-width : 480px) {
+
+	.content__modal, .content__modal__voc, .content__modal__read, .content__modal__lis, .content__modal__test, .content__modal__key {
+		height: 30%;
+		width: 80%;
+		left: 10%;
+
+	}
+	.content__modal.active, .content__modal__voc.active, .content__modal__read.active, .content__modal__lis.active, .content__modal__test.active, .content__modal__key.active {
+		bottom: 40%;
+	}
+	.content__modal__list a {
+		padding: 5px;
+
+	}
+	.content__modal__button {
+		height: 20%;
+		background-color: #fff;
+
+	}
 
 	.content__content__block {
 		-webkit-flex: 1 1 100%;
@@ -410,6 +448,24 @@
 }
 
 @media only screen and (max-width : 375px) {
+	.content__modal, .content__modal__voc, .content__modal__read, .content__modal__lis, .content__modal__test, .content__modal__key {
+		height: 30%;
+		width: 80%;
+		left: 10%;
+
+	}
+	.content__modal.active, .content__modal__voc.active, .content__modal__read.active, .content__modal__lis.active, .content__modal__test.active, .content__modal__key.active {
+		bottom: 40%;
+	}
+	.content__modal__list a {
+		padding: 5px;
+		line-height: 35px;
+	}
+	.content__modal__button {
+		height: 20%;
+		background-color: #fff;
+
+	}
 
 	.two__columns__into__longer__version {
 		font-size: 10px;
@@ -424,6 +480,25 @@
 	}
 	.header__search button {
 		width: 80px;
+	}
+
+	.content__modal, .content__modal__voc, .content__modal__read, .content__modal__lis, .content__modal__test, .content__modal__key {
+		height: 30%;
+		width: 80%;
+		left: 10%;
+
+	}
+	.content__modal.active, .content__modal__voc.active, .content__modal__read.active, .content__modal__lis.active, .content__modal__test.active, .content__modal__key.active {
+		bottom: 52%;
+	}
+	.content__modal__list a {
+		padding: 5px;
+		line-height: 30px;
+	}
+	.content__modal__button {
+		height: 20%;
+		background-color: #fff;
+
 	}
 
 	.two__columns__into {

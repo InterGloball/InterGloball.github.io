@@ -344,6 +344,7 @@ body {
   .one__column__into p {
   	padding: 5px 0;
   }
+
   .two__columns__into_for_lisening__column {
   	display: -webkit-flex;
   	display: -moz-flex;
@@ -357,12 +358,12 @@ body {
   	flex-direction: ;
   }
   .two__columns__into_for_lisening__column__1 {
-	margin: 20px 0;
+  	margin: 20px 0;
 
   }
   .two__columns__into_for_lisening__column__2 {
-	margin: 20px 0;
-	
+  	margin: 20px 0;
+
   }
   .two__columns__into	{
   	display: -webkit-flex;
@@ -647,6 +648,11 @@ body {
 	background-color: #37516b;	
 	color: #fff;
 } 
+.content__modal__button {
+	color: #fff;
+	width: 100%;
+	background-color: #fff;
+}
 .block__modal {}
 
 /*
