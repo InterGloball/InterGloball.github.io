@@ -289,9 +289,8 @@
 	.content__content__text__courses {
 		margin: 0;
 	}
-	.content__content__text__courses__paragraph {
-		width: 400px;
-		padding: 0 5px;
+	.two__columns__into_for_lisening {
+		width: 380px;
 	}
 	.text__first__line {
 		padding: 0 0 30px 100px;
@@ -414,6 +413,9 @@
 }
 
 @media only screen and (max-width : 375px) {
+	.two__columns__into_for_lisening	{
+		width: 340px;
+	}
 	.two__columns__into__longer__version {
 		font-size: 10px;
 	}
@@ -427,6 +429,9 @@
 	}
 	.header__search button {
 		width: 80px;
+	}
+	.two__columns__into_for_lisening {
+		width: 300px;
 	}
 	.two__columns__into {
 		-webkit-flex-wrap: wrap;
