@@ -431,7 +431,7 @@
 		width: 80px;
 	}
 	.two__columns__into_for_lisening {
-		width: 300px;
+	/*	width: 300px;*/
 	}
 	.two__columns__into {
 		-webkit-flex-wrap: wrap;
