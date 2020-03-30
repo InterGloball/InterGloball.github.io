@@ -309,9 +309,9 @@ body {
   .space__to__right__wrapper {
   	width: 270px;
   }
- .checkbox {
-	
- }
+  .checkbox {
+
+  }
   .question {
   	border: 1px solid #37516b;
   	font-size: 12px;
@@ -320,7 +320,7 @@ body {
   .space__to__right {
   	float: right;
   }
-   .two__columns__into__longer__version	{
+  .two__columns__into__longer__version	{
   	display: -webkit-flex;
   	display: -moz-flex;
   	display: -ms-flex;
@@ -343,6 +343,39 @@ body {
   }
   .one__column__into p {
   	padding: 5px 0;
+  }
+  .two__columns__into_for_lisening {
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  	-webkit-flex-direction: column;
+  	-moz-flex-direction: column;
+  	-ms-flex-direction: column;
+  	-o-flex-direction: column;
+  	flex-direction: column;
+  	width: 500px;
+  }
+  .two__columns__into_for_lisening__column {
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  	-webkit-flex-direction: ;
+  	-moz-flex-direction: ;
+  	-ms-flex-direction: ;
+  	-o-flex-direction: ;
+  	flex-direction: ;
+  }
+  .two__columns__into_for_lisening__column__1 {
+	margin: 20px 0;
+
+  }
+  .two__columns__into_for_lisening__column__2 {
+	margin: 20px 0;
+	
   }
   .two__columns__into	{
   	display: -webkit-flex;

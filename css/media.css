@@ -289,6 +289,10 @@
 	.content__content__text__courses {
 		margin: 0;
 	}
+	.content__content__text__courses__paragraph {
+		width: 400px;
+		padding: 0 5px;
+	}
 	.text__first__line {
 		padding: 0 0 30px 100px;
 	}
@@ -390,30 +394,30 @@
 		left: 230px; 	
 	}
 
-.three__columns__into {
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
-}
-.thre__columns__into__col__1 {
-	margin: 0 0 20px 0;
-}
-.thre__columns__into__col__2 {
-	margin: 0 0 20px 0;
-}
-.thre__columns__into__col__3 {
-	margin: 0 0 20px 0;
-}
+	.three__columns__into {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.thre__columns__into__col__1 {
+		margin: 0 0 20px 0;
+	}
+	.thre__columns__into__col__2 {
+		margin: 0 0 20px 0;
+	}
+	.thre__columns__into__col__3 {
+		margin: 0 0 20px 0;
+	}
 
 }
 
 @media only screen and (max-width : 375px) {
- .two__columns__into__longer__version {
- 	font-size: 10px;
- }
+	.two__columns__into__longer__version {
+		font-size: 10px;
 	}
+}
 
 
 
