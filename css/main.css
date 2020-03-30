@@ -258,7 +258,13 @@ body {
 .content__content__text__courses__paragraph {
 	margin: 0 0 50px 0;
 }
-.content__content__text__courses  h2 {
+
+.content__content__text__courses h1 {
+	margin: 20px 0 20px 15px;			
+	font-weight: bolder;	
+}
+
+.content__content__text__courses h2 {
 	margin: 0 0 60px 0;	
 	font-weight: bolder;
 }
@@ -287,17 +293,29 @@ body {
   	padding: 0 10px 0 0;
   	margin: 0 0 10px 0;
   }
+  .p_italic	{
+  	font-style: italic;
+  }
   .p_border_biger	{
   	border: 1px solid #37516b;
   	display: inline-block;
   	padding: 10px;
   	margin: 20px 0;
   }
+
   .p_border_biger p {
   	padding: 0 0 10px 0;
   }
   .space__to__right__wrapper {
   	width: 270px;
+  }
+ .checkbox {
+	
+ }
+  .question {
+  	border: 1px solid #37516b;
+  	font-size: 12px;
+  	padding: 0 5px;
   }
   .space__to__right {
   	float: right;
@@ -319,6 +337,12 @@ body {
   	display: flex;
   	justify-content: space-between;
   	max-width: 280px;
+  }
+  .one__column__into {
+
+  }
+  .one__column__into p {
+  	padding: 5px 0;
   }
   .two__columns__into	{
   	display: -webkit-flex;
