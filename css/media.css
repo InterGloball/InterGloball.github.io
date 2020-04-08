@@ -12,6 +12,24 @@
 	.block__label p {
 		font-size: 19px;
 	}
+	.form__input__radio { 
+		padding: 0 10px 0 0;
+	}
+	.radio__label {
+		margin: 0 40px 0 0px;
+	}
+	.radio__label:first-child {
+		margin: 0 40px 0 0px;
+	}
+	.check__box {
+		margin: 0 0 0 5px;
+	}
+	.submit {
+		bottom: 8.2%;
+	}
+	.content__content .link_refresh {
+	
+	}
 }
 
 @media (max-width: 1116px) {
@@ -240,6 +258,19 @@
 	font-size: 18px;
 	text-transform: uppercase;
 }
+.checkbox:checked + .check__box:after {
+	font-size: 12px;
+	line-height: 13px;
+}
+	.submit {
+	bottom: 3%;	
+	left: 32%;
+	}
+	.content__content .link_refresh {
+	bottom: 3%;	
+	left: 48%;
+	padding: 1px 20px 1px 20px;
+	}
 }
 
 
@@ -336,7 +367,6 @@
 	.text__third__line {
 		padding: 0 0 30px 10px;
 	}
-
 	.span_line_long {
 		height: 1px;
 		border-bottom: 1px solid #37516b;
@@ -444,6 +474,18 @@
 	.thre__columns__into__col__3 {
 		margin: 0 0 20px 0;
 	}
+	.submit {
+	bottom: 4.2%;	
+	left: 22%;
+	font-size: 14px;
+	}
+	.content__content .link_refresh {
+	bottom: 4.2%;	
+	left: 50%;
+	line-height: 26px;
+	padding: 0px 20px 0px 20px;
+	font-size: 14px;
+	}
 
 }
 
@@ -464,12 +506,24 @@
 	.content__modal__button {
 		height: 20%;
 		background-color: #fff;
-
 	}
-
+	.four__columns__into {
+		font-size: 10px;
+	}
 	.two__columns__into__longer__version {
 		font-size: 10px;
 	}
+	.content__content__text__courses__paragraph__blocks {
+		font-size: 12px;
+	}
+	.submit {
+		bottom: 5.5%;
+		left: 20%;
+	}
+	.content__content .link_refresh {
+		bottom: 5.5%;
+		left: 50%;
+	} 
 }
 
 
