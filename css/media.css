@@ -276,6 +276,13 @@ line-height: 18px;
 	left: 48%;
 	padding: 6px 10px 6px 10px;
 }
+.col_l_r { 
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
 }
 
 
@@ -537,13 +544,6 @@ line-height: 18px;
 		bottom: 5.5%;
 		left: 50%;
 	} 
-	.col_l_r { 
-		-webkit-flex-direction: row;
-		-moz-flex-direction: row;
-		-ms-flex-direction: row;
-		-o-flex-direction: row;
-		flex-direction: row;
-	}
 	.col_l_r p:first-child {
 		display: block;
 	}
