@@ -1,0 +1,15 @@
+		label {
+			display: block;
+			margin: 20px;
+			font-size: 20px;
+		}
+		.correct {
+			border: 1px solid green;
+		}
+		.incorrect {
+			border: 1px solid red;
+		}
+		#submit {
+			font-size: 25px;
+			padding: 20px;
+		}
