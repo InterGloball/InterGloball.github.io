@@ -1,15 +1,110 @@
+		/* Обнуление */
+		*{padding:0;margin:0;border:0;}
+		*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+		:focus,:active{outline:none;}
+		a:focus,a:active{outline:none;}
+		nav,footer,header,aside{display:block;}
+		html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+		input,button,textarea{font-family:inherit;}
+		input::-ms-clear{display:none;}
+		button{cursor:pointer;}
+		button::-moz-focus-inner{padding:0;border:0;}
+		a,a:visited{text-decoration:none;}
+		a:hover{text-decoration:none;}
+		ul li{list-style:none;}
+		img{vertical-align:top;}
+		h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+		/*--------------------*/
+		.wrapper {
+			max-width: 900px;
+			height: 100%;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;	
+		}
+		.container {
+			margin: 0 auto;
+
+		}
+		#test {
+	height: 50%;
+
+		}
 		label {
 			display: block;
 			margin: 20px;
-			font-size: 20px;
+			font-size: 25px;
+		}
+		label:hover {
+			cursor: pointer;	
+			color: #369;
+		}
+		.form {
+			margin: 30px;
 		}
 		.correct {
 			border: 1px solid green;
+			box-shadow: 0 0 3px 1px green;
 		}
 		.incorrect {
 			border: 1px solid red;
+			box-shadow: 0 0 3px 1px red;
+		}
+		.input__text {
+			border-bottom: 1px solid;
+			width: 50%;
+		}
+		.input__text input {
+			font-size: 19px;
+			color: #369;
+			padding: 10px 0;
 		}
 		#submit {
 			font-size: 25px;
 			padding: 20px;
+			position: fixed;
+			left: 50%;
+			bottom: 5%;
+			background-color: green;
+			color: #fff;
+			border-radius: 5px;
 		}
+		#submit:hover {
+			background-color: #369;
+			color: #fff;
+		}
+
+
+		.checkbox {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			overflow: hidden;
+			clip: rect(0 0 0 0);
+		}
+		.check__box {
+			width: 1em;
+			height: 1em;
+			border: 1px solid #37516B;
+			border-radius: 3px;
+			position: absolute;
+			margin: 0 0 0 5px;
+		}
+		/*  checked  */
+
+		.checkbox:checked + .check__box:after {
+			content: '\2713';
+			font-size: 18px;
+			line-height: 18px;
+			padding: 0 0 0 1px;
+			font-weight: bold;
+			background-color: #37516B;
+			color: #fff;
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			box-shadow: 0 0 3px 1px #37516B;
+		}
+
