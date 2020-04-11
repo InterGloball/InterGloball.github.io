@@ -50,10 +50,6 @@ button.addEventListener('click', function() {
 					}		
 				};
 			} 
-			else {
-				form.classList.add('incorrect')
-			}
-
 			input.classList.remove('correct');
 			input.classList.remove('incorrect');
 
@@ -62,7 +58,7 @@ button.addEventListener('click', function() {
 			} else {
 				input.classList.add('incorrect');
 			}
-			
+
 		};
 
 
