@@ -50,6 +50,9 @@ button.addEventListener('click', function() {
 					}		
 				};
 			} 
+			else {
+				form.classList.add('incorrect')
+			}
 		};
 
 
@@ -63,5 +66,6 @@ button.addEventListener('click', function() {
 				input.classList.add('incorrect');
 			}
 		}
+
 	}
 });
