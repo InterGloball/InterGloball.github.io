@@ -13,7 +13,7 @@ button.addEventListener('click', function() {
 
 
 		for (let input of inputs) {
-		   if (input.checked){
+			if (input.checked){
 				if (input.name == 1 ) {
 					if (input.value == answs[0]) {
 						form.classList.add('correct')
@@ -53,10 +53,7 @@ button.addEventListener('click', function() {
 			else {
 				form.classList.add('incorrect')
 			}
-		};
 
-
-		for (let input of inputs) {
 			input.classList.remove('correct');
 			input.classList.remove('incorrect');
 
@@ -65,7 +62,20 @@ button.addEventListener('click', function() {
 			} else {
 				input.classList.add('incorrect');
 			}
-		}
+			
+		};
+
+
+		// for (let input of inputs) {
+		// 	input.classList.remove('correct');
+		// 	input.classList.remove('incorrect');
+
+		// 	if (input.value.toLowerCase() == input.dataset.right){
+		// 		input.classList.add('correct');
+		// 	} else {
+		// 		input.classList.add('incorrect');
+		// 	}
+		// }
 
 	}
 });
