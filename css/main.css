@@ -849,7 +849,8 @@ label {
 		font-size: 20px;
 	}
 	.input__text {
-/*		border-bottom: 1px solid #cdd1d6;		*/
+		border-radius: none;
+		border-bottom: 1px solid #cdd1d6;		
 		
 	}
 	.correct {
