@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<style>
+		.correct {
+			border: 1px solid green;
+		}
+		.incorrect {
+			border: 1px solid red;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="test">
+		
+		<form>
+
+			<label>
+				<p>Where was Louise’s dad born?</p>
+				<input type="text" name="1" data-right="australia">
+			</label>
+			<label>
+				<p>Where did Nick’s girlfriend want to go for their winter holiday?</p>
+				<input type="text" name="2" data-right="jamaica">
+			</label>
+			<label>
+				<p>Where does Damion live now?</p>
+				<input type="text" name="3" data-right="america">
+			</label>
+
+		</form>
+
+
+		<button id="submit">submit</button>
+	</div>
+
+
+	<script>
+		
+		let button = document.querySelector('#submit');
+		button.addEventListener('click', function() {
+			let forms = document.querySelectorAll('#test form');
+
+			for (let form of forms) {
+				form.classList.remove('correct');
+				form.classList.remove('incorrect');
+
+				let inputs = form.querySelectorAll('input');
+
+
+				for (let input of inputs) {
+					input.classList.remove('correct');
+					input.classList.remove('incorrect');
+
+					if (input.value.toLowerCase() == input.dataset.right){
+						input.classList.add('correct');
+					} else {
+						input.classList.add('incorrect');
+					}
+				}
+
+
+			}
+		});
+
+		</script>
+	</body>
+	</html>
