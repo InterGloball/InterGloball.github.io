@@ -1,8 +1,38 @@
 let button = document.querySelector('#submit');
+
+// let selects = document.querySelector('select');
+// selects.addEventListener('change', function() {
+
+// 			selects.classList.remove('correct');
+// 			selects.classList.remove('incorrect');
+
+// 				alert(this.value);
+// 			});
+
 button.addEventListener('click', function() {
 	let forms = document.querySelectorAll('#test form');
 
 	for (let form of forms) {
+
+		let selects = document.querySelector('select');
+
+		selects.classList.remove('correct');
+		selects.classList.remove('incorrect');
+
+
+
+
+		if(selects.name == 1) {
+			if (selects.value == 'b') {
+				selects.classList.add('correct');
+			}else {
+				selects.classList.add('incorrect');
+			}
+		};
+
+
+
+
 
 		answs = ['A', 'B', 'C']	
 
@@ -10,6 +40,7 @@ button.addEventListener('click', function() {
 		form.classList.remove('incorrect');
 
 		let inputs = form.querySelectorAll('input');
+
 
 
 		for (let input of inputs) {
