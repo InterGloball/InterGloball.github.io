@@ -725,6 +725,13 @@ label {
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
+.input__text__radio {
+	background-color: #f4f7f9;
+	border-bottom: 1px solid #a5a2a2;
+	font-size: 18px;
+	padding: 0 10px ;
+	color: #847b7b;
+}
 .radio__after__num {
 	margin: 0 10px 0 -30px;
 	font-weight: bolder;
@@ -847,14 +854,19 @@ label {
 	}
 	.form__input__text input {
 		font-size: 20px;
+		color: #877c7c;
 	}
 	.input__text {
-		border: 1px solid;
-		/*border-bottom: 1px solid #cdd1d6;		*/
+		border-bottom: 1px solid #cdd1d6;		
 		
 	}
+	.input__text__single {
+		width: 25px;
+		border: 1px solid #cdd1d6;
+		padding: 0 0 0 5px;
+	}
 
-
+	
 
 	.correct {
 		box-shadow: 0 0 10px 1px #3dba6d;
