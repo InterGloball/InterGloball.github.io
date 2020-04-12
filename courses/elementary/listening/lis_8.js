@@ -1,7 +1,8 @@
 let button = document.querySelector('#submit');
 button.addEventListener('click', function() {
 	let forms = document.querySelectorAll('#test form');
-
+alert('проверка на работоспособность JS');
+alert('и повторочка');
 	for (let form of forms) {
 
 		answs = ['A', 'B', 'C']	
