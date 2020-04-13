@@ -351,11 +351,7 @@ body {
   	display: -ms-flex;
   	display: -o-flex;
   	display: flex;
-  	-webkit-flex-direction: ;
-  	-moz-flex-direction: ;
-  	-ms-flex-direction: ;
-  	-o-flex-direction: ;
-  	flex-direction: ;
+
   }
   .two__columns__into_for_lisening__column__1 {
   	margin: 20px 0;
@@ -386,8 +382,78 @@ body {
   	display: flex;
 
   }
+
+  /* lisining 4 */
+  .lisining_4__row {
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+
+  	-webkit-flex-direction: column;
+  	-moz-flex-direction: column;
+  	-ms-flex-direction: column;
+  	-o-flex-direction: column;
+  	flex-direction: column;
+
+		max-width: 600px;
+  	/*background-color: #F4F7F9;*/
+  }
+  .lisining_4__row__first {
+  	-ms-align-self: flex-end;
+  	align-self: flex-end;	
+		
+  }
+  .lisining_4__forms { 
+  	width: 200px;
+  }
+  .lisining_4__row__second__lines {
+  	margin: 15px 0;
+  	padding: 5px 0;
+  	border-bottom: 1px solid;
+  }
+  .lisining_4__row__second__row {
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+
+  	-webkit-flex-direction: column;
+  	-moz-flex-direction: column;
+  	-ms-flex-direction: column;
+  	-o-flex-direction: column;
+  	flex-direction: column;
+  }
+
+  .lisining_4__row__second__lines__row { 
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+		
+		justify-content: space-between;
+
+  }
+  .lisining_4__p_space{
+  	margin: 0 10px;
+  }
+  /* lisining 4  end */
+
+
+  .lisining_4__row__first__col__row {
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+
+  	justify-content: flex-end;
+  }
   .four__columns__into__col__1 {
-  	padding: 5px 5px 0 0;
+  	padding: 60px 5px 0 0;
   }
   .four__columns__into__col__2 {
   	padding: 0 5px 0 0;
@@ -399,7 +465,7 @@ body {
   	padding: 0 5px 0 0;
   }
 
-  .four__columns__into__col__1 span {
+  .four__columns__into__col__1 span { 
   	padding: 0 10px 0 0;
   }
   .four__columns__into__col__2 span {
@@ -789,15 +855,15 @@ label {
 	/*  focused  */
 
 	.checkbox:focus + .check__box:after  {
-	
-	}
 
 	}
-	/*  cheched focused  */
 
-	.checkbox:cheched:focus + .check__box:after {
+}
+/*  cheched focused  */
 
-	}
+.checkbox:cheched:focus + .check__box:after {
+
+}
 
 /*
 	checkbox end	
@@ -806,7 +872,7 @@ label {
 	.radio__value {
 		padding: 0 10px 0 0;
 	}
-/* button submit */
+	/* button submit */
 	.submit {
 		position: fixed;
 		z-index: 20;
@@ -885,56 +951,56 @@ label {
 		box-shadow: 0 0 10px 2px #ef8f8f;
 	}
 
-.content__content__text__courses__paragraph__row {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
+	.content__content__text__courses__paragraph__row {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
 
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
-
-
-
-	-webkit-flex-wrap: nowrap;
-	-moz-flex-wrap: nowrap;
-	-ms-flex-wrap: nowrap;
-	-o-flex-wrap: nowrap;
-	flex-wrap: nowrap;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
 
 
-}
-.content__content__text__courses__paragraph__ask_answ {
-	margin: 0 10px 0 0;
-}
-.col_l_r {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
+
+		-webkit-flex-wrap: nowrap;
+		-moz-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
+		-o-flex-wrap: nowrap;
+		flex-wrap: nowrap;
 
 
-}
-.left {
+	}
+	.content__content__text__courses__paragraph__ask_answ {
+		margin: 0 10px 0 0;
+	}
+	.col_l_r {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+
+
+	}
+	.left {
 		-webkit-flex: 0 0 30%;
 		-moz-flex: 0 0 30%;
 		-ms-flex: 0 0 30%;
 		-o-flex: 0 0 30%;
 		flex: 0 0 30%;
-}
-.right {
+	}
+	.right {
 
-}
+	}
 
-.col_l_r p {
-	display: inline-block;
-	padding: 0 10px 0 0;
-}
+	.col_l_r p {
+		display: inline-block;
+		padding: 0 10px 0 0;
+	}
 
 
 
