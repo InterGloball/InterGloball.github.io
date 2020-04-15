@@ -250,10 +250,13 @@ body {
 
 
 
-.content__content__text__courses {
+.content__content__text__courses { 
 	margin: 0 20px 50px 70px;
 	color: #37516b;
 	font-size: 19px;
+}
+.content__content__text__courses__paragraph__blocks form {
+	margin: 10px 0;
 }
 .content__content__text__courses__paragraph {
 	margin: 0 0 50px 0;
