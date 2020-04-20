@@ -255,6 +255,7 @@ body {
 	color: #37516b;
 	font-size: 19px;
 }
+
 .content__content__text__courses__paragraph__blocks form {
 	margin: 10px 0;
 }
@@ -280,6 +281,7 @@ body {
   */
   .text_bolder {
   	font-weight: bolder;
+    position: relative;
   }	
   .lable__Example {
   	margin-bottom: 10px;
@@ -311,9 +313,6 @@ body {
   }
   .space__to__right__wrapper {
   	width: 270px;
-  }
-  .checkbox {
-
   }
   .question {
   	border: 1px solid #37516b;
@@ -838,7 +837,7 @@ label {
 		right: -20px;
 		margin: 0 0 0 5px;
 	}
-	/*  checked  */
+	
 
 	.checkbox:checked + .check__box:after {
 		content: '\2713';
@@ -853,7 +852,7 @@ label {
 		width: 100%;
 		box-shadow: 0 0 3px 1px #37516B;
 	}
-
+/*  checkend  */
 
 	/*  focused  */
 
@@ -1006,7 +1005,9 @@ label {
 	}
 
 
-
+.p_block {
+    display: block;
+}
 
 
 /*

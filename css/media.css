@@ -269,6 +269,11 @@
 	font-size: 18px;
 	text-transform: uppercase;
 }
+
+
+
+
+
 .checkbox:checked + .check__box:after {
 /*	font-size: 12px;
 line-height: 13px;*/
@@ -510,6 +515,11 @@ line-height: 18px;
 		padding: 4px 15px 4px 15px;
 		font-size: 14px;
 	}
+
+
+
+
+
 	.checkbox:checked + .check__box:after {
 		font-size: 12px;
 		line-height: 13px;
@@ -518,6 +528,11 @@ line-height: 18px;
 		display: block;
 	}
 
+
+	.long_span {
+		top: 37px;
+		right: 95px;
+	}
 }
 
 @media only screen and (max-width : 375px) {
@@ -579,7 +594,11 @@ line-height: 18px;
 	.col_l_r {
 		margin: 10px 10px 10px 10px;
 	}
+	.long_span {
+		right: 30px;
+	}
 }
+
 
 
 
@@ -619,5 +638,5 @@ line-height: 18px;
 	.two__columns__into__col__2 {
 		margin: 0 0 0 15px;
 	}
-
 }
+
